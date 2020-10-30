@@ -1,8 +1,8 @@
 import React from 'react'
-import everest from '../assets/images/everest.jpg'
-import garden from '../assets/images/open-garden.jpg'
-import drizzle from '../assets/images/for-drizzle.jpg'
-import map from '../assets/images/worldmap-hand.jpg'
+import everest from '../assets/images/everest.jpeg'
+import garden from '../assets/images/open-garden.jpeg'
+import drizzle from '../assets/images/for-drizzle.jpeg'
+import map from '../assets/images/worldmap-hand.jpeg'
 
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
@@ -47,7 +47,7 @@ class Carousel extends React.Component {
         ]
     }
 
-    handleCardClick = (id) => {
+    handleMouseOver = (id) => {
 
         let items = [...this.state.items]
         
@@ -66,7 +66,7 @@ class Carousel extends React.Component {
 
     makeItems = (items) => {
         return items.map(item => { 
-            return <Card item={item} click={(e => this.handleCardClick(item.id, e))} key={item.id}/>
+            return <Card item={item} mouse={(e => this.handleMouseOver(item.id, e))} key={item.id}/>
         })
     }
 

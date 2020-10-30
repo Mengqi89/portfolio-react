@@ -11,7 +11,7 @@ function Footer() {
                 <Row className="border-top justify-content-between p-4">
                     <Col className="p-0" md={3} sm={12}>
                         Mengqi Wang</Col>
-                    <Col className="p-0 d-flex justify-content-end" md={3}>This site was made by Mengqi Wang.</Col>
+                    <Col className="p-0 d-flex justify-content-end" md={3}>Copyright @ 2020 - Mengqi Wang. All Rights Reserved</Col>
                 </Row>
             </Container>
         </footer>
