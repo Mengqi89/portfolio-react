@@ -65,3 +65,19 @@ code {
   justify-content: center;
   text-align: center;
 }
+
+.internship-pic {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.col-internship {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.col-internship p {
+  width: 80%;
+  margin: .5em auto;
+}

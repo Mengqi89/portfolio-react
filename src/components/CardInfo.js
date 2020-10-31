@@ -12,7 +12,7 @@ function CardInfo(props) {
 
     const makeTechs = (techs) => {
         return techs.map((tech, index) => {
-            return <Col key={index}>{tech}</Col>
+            return <Col className="font-weight-bold" key={index}>{tech}</Col>
         })
     }
     
