@@ -38,3 +38,30 @@ code {
   font-size: 16px;
   margin: 0px;
 }
+
+.hover-zoom:hover {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all .5s ease-in-out;
+  opacity: 0.8;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+}
+
+.tech-list {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.tech-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}

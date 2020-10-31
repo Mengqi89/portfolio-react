@@ -9,7 +9,7 @@ function AboutPage(props) {
             <Content>
                 <p>Hello, my name is Mengqi Wang.</p>
                 <p>I am a graduate of Thinkful. I enjoy coding because it's both a creative and a problem-solving process. I have experience in React, Node, Express and PostgreSQL.</p>
-                <p>My background in education and project coordination also equips me with a growth mindset, solid communciation skills and the ability to manage complex needs.</p>
+                <p>Hello, my name is Mengqi Wang.</p>
             </Content>
         </div>
     )

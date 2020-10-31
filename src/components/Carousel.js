@@ -17,7 +17,9 @@ class Carousel extends React.Component {
                 title: 'Everest International Education',
                 subTitle: 'Everest enables teachers to apply for jobs China.',
                 imgSrc: everest,
-                link:'https://everest.wmq516.now.sh/',
+                link: 'https://everest.wmq516.now.sh/',
+                github: 'https://github.com/Mengqi89/everest-client',
+                techs: ['React', 'Node', 'Express', 'PostgreSQL', 'SASS'],
                 selected: false
             },
             {
@@ -26,6 +28,8 @@ class Carousel extends React.Component {
                 subTitle: 'List homegrown produce for exchange.',
                 imgSrc: garden,
                 link: 'https://opengarden.wmq516.now.sh/',
+                github: 'https://github.com/Mengqi89/open-garden-client',
+                techs: ['React', 'Node', 'Express', 'PostgreSQL'],
                 selected: false
             },
             {
@@ -34,6 +38,8 @@ class Carousel extends React.Component {
                 subTitle: 'Know when to water your garden',
                 imgSrc: drizzle,
                 link: 'https://mengqi89.github.io/for-drizzle/',
+                github: 'https://github.com/nataliesun/for-drizzle-old',
+                techs: ['jQuery'],
                 selected: false
             },
             {
@@ -42,6 +48,8 @@ class Carousel extends React.Component {
                 subTitle: 'Test your geography.',
                 imgSrc: map,
                 link: 'https://kylerrenneker.github.io/quizApp/',
+                github: 'https://github.com/kylerRenneker/quizApp',
+                techs: ['jQuery'],
                 selected: false
             }
         ]
@@ -73,6 +81,7 @@ class Carousel extends React.Component {
     render() {
         return (
             <Container fluid={true}>
+                <h3 className="display-5 font-weight-light text-center">Past projects</h3>
                 <Row className="justify-content-around">
                    {this.makeItems(this.state.items)}
                 </Row>
