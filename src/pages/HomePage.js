@@ -6,7 +6,7 @@ import Internships from '../components/Internships'
 
 function HomePage(props) { 
     return (
-        <div>
+        <div className="page justify-content-center">
             <Hero title={props.title} subTitle={props.subTitle} text={props.text} />
             <Tech techs={props.techs} />
             <Internships />

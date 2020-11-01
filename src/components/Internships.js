@@ -10,15 +10,15 @@ function Tech(props) {
         <Container fluid={false}>
             <h3 className="display-5 font-weight-light text-center">Internships</h3>
             <Row className="justify-content-around py-5">
-                <Col className="text-center col-internship"><img className="internship-pic" src={frame} alt="frame logo"></img></Col>
-                <Col className="text-left col-internship">
-                    <p>I have joined Frame, a solar proposal start-up, last September 2020, as an intern. I have worked on customer profile and messaging functions.</p>
+                <Col className="text-center col-internship" xs={{ span: 12, offset: 0 }} md={{ span: 6, offset: 0 }}><img className="internship-pic" src={frame} alt="frame logo"></img></Col>
+                <Col className="text-left col-internship" xs={{ span: 12, offset: 0 }} md={{ span: 6, offset: 0 }}>
+                    <p>I have joined Frame, a solar proposal start-up, as an intern, since late September 2020. I have worked on customer profile and messaging functions.</p>
                     <p>Despite being completely new to the tech stack, I have been able to meet weekly deliverable goals and build new features from the beginning.</p>
                     <p className="font-weight-bold">Tech Stack: Vue.js, Node.js, Firebase, BootstrapVue, Sass</p>
                 </Col>
             </Row>
             <Row className="justify-content-around py-5">
-                <Col className="text-left col-internship">
+                <Col className="text-left col-internship" xs={{ span: 12, offset: 0, order: 12 }} md={{ span: 6, offset: 0, order: 1 }}>
                     <p>
                         From March to August 2020, I joined <a href="https://github.com/JustUtahCoders/" target="_blank" rel="noopenner noreferrer">Just Utah Coders</a> as an intern to help build <a href="https://utahexpungements.org" target="_blank" rel="noopenner noreferrer">utahexpungements.org</a>. I jumped on board with minimal supervision and worked with Salt Lake County Expungement Coordinator to improve the forms tool. I was also able to identify and fix inconsistent datakeys to improve cross-form data population.
                     </p>
@@ -27,7 +27,7 @@ function Tech(props) {
                     </p>
                     <p className="font-weight-bold">Tech Stack: React, Node Express.js, Firebase</p>
                 </Col>
-                <Col className="text-center col-internship"><img className="internship-pic" src={juc} alt="just utah coders website screenshot"></img></Col>
+                <Col className="text-center col-internship" xs={{ span: 12, offset: 0, order: 1 }} md={{ span: 6, offset: 0, order: 12 }}><img className="internship-pic" src={juc} alt="just utah coders website screenshot"></img></Col>
             </Row>
         </Container>
     )

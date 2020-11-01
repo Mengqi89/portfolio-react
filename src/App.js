@@ -42,7 +42,9 @@ class App extends React.Component {
       { title: 'Resume', path: '/resume' }
     ],
     home: {
-      title: 'Welcome!'
+      title: 'Welcome!',
+      subTitle: 'I\'m Mengqi, a web developer in Salt Lake City.',
+      text: ''
     },
     about: {
       title: 'About me'

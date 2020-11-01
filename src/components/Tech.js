@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col'
 function Tech(props) {
     const makeTechs = (techs) => {
         return techs.map((t, index) => {
-            return <Col key={index}><img className="icon" src={t.icon} alt={t.name}></img></Col>
+            return <Col xs={{ span: 3, offset: 1 }} key={index}><img className="icon" src={t.icon} alt={t.name}></img></Col>
         })
     } 
     return (
