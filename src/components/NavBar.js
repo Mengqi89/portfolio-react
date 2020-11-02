@@ -15,7 +15,7 @@ function NavBar() {
                         <Link className="nav-link" to="/">Home</Link>
                         <Link className="nav-link" to="/about">About</Link>
                         <Link className="nav-link" to="/contact">Contact</Link>
-                        <Link className="nav-link" to="/resume">Resume</Link>
+                        <a className="nav-link" href="mengqi.live" target="_blank" rel="noopenner noreferrer">Resume</a>
                         </Nav>
                     </Navbar.Collapse>
             </Navbar>
