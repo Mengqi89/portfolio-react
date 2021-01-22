@@ -15,7 +15,7 @@ function NavBar() {
                         <Link className="nav-link" to="/">Home</Link>
                         <Link className="nav-link" to="/about">About</Link>
                         <Link className="nav-link" to="/contact">Contact</Link>
-                        <a className="nav-link" href="https://drive.google.com/file/d/1Z9-i6urDybZgM9Ynb-8nPS_pfwoDU3U6/view?usp=sharing" target="_blank" rel="noopenner noreferrer">Resume</a>
+                        <a className="nav-link" href="https://drive.google.com/file/d/1GT86NgiHgxYpUk9uR3UgR0Tlt0GRAXAI/view?usp=sharing" target="_blank" rel="noopenner noreferrer">Resume</a>
                         </Nav>
                     </Navbar.Collapse>
             </Navbar>
